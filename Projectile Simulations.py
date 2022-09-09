@@ -30,5 +30,5 @@ Acceleration = ((Vfinal^2)-(Vinitial^2))/(2*Distance)
 #Homeboy Newton found a way for us to calculate force
 Force = mass * Acceleration
 
-print("Amount of force needed to accelerate a pure iron projectile of " + mass + "grams, is " + Force + "Newtons" )
+print("Amount of force needed to accelerate a pure iron projectile of " + str(mass) + "grams, is " + str(Force) + "Newtons" )
 
